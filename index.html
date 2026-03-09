@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Name</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .about,
+        .events {
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .about {
+            background-color: #e0e0e0;
+        }
+
+        .events {
+            background-color: #d0d0d0;
+        }
+
+        .featured-items {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            margin-top: 40px;
+        }
+
+        .featured-item {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .featured-item:nth-child(1) {
+            background-color: #ffd1d1;
+        }
+
+        .featured-item:nth-child(2) {
+            background-color: #d1ffcd;
+        }
+
+        .featured-item:nth-child(3) {
+            background-color: #d1d8ff;
+        }
+
+        .featured-item:nth-child(4) {
+            background-color: #ffd1f7;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-grid">
+            <div class="about">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus in augue luctus venenatis. Sed tincidunt, magna a ultricies lobortis, mi risus cursus ipsum, vel mattis lacus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+            </div>
+            <div class="events">
+                <h2>Upcoming Events</h2>
+                <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacus volutpat, facilisis fringilla, pede. Morbi volutpat. Vestibulum facilisis, pede. Nunc sed velit. Donec xion Nulla quis diam. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue. Curabitur vestibulum aliquam leo.</p>
+            </div>
+        </div>
+
+        <div class="featured-items">
+            <div class="featured-item">
+                <h3>Featured Item 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="featured-item">
+                <h3>Featured Item 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="featured-item">
+                <h3>Featured Item 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="featured-item">
+                <h3>Featured Item 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
